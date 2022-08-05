@@ -7,7 +7,7 @@ import { HomeOutlined, BulbOutlined, FundOutlined, MenuOutlined, MoneyCollectFil
 
 import icon from '../images/cryptocurrency.png';
 
-const Navbar = () => {
+function Navbar() {
   return (
     <div className='nav-container'>
         <div className='logo-container'>
@@ -31,7 +31,7 @@ const Navbar = () => {
             </Menu.Item>
         </Menu>
     </div>
-  )
+  );
 }
 
 export default Navbar
